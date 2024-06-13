@@ -4,6 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora de Probabilidade de Vitória</title>
+    <!-- AdSense Code -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-XXXXXXXXXXXXXXXX",
+            enable_page_level_ads: true
+        });
+    </script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,17 +20,22 @@
         <form id="calcForm">
             <label for="victories">Número de Vitórias:</label>
             <input type="number" id="victories" required>
-
             <label for="matches">Número de Partidas Disputadas:</label>
             <input type="number" id="matches" required>
-            
             <label for="odds">Odds Indicadas pela Casa de Apostas:</label>
             <input type="number" step="0.01" id="odds" required>
-
             <button type="submit">Calcular</button>
         </form>
         <div id="result"></div>
     </div>
+    <div class="explanation">
+        <h2>O que é Valor Esperado em Apostas Esportivas?</h2>
+        <p>O valor esperado é um conceito essencial em apostas esportivas, representando a diferença entre a probabilidade de vitória calculada com base em dados históricos e a probabilidade implícita nas odds oferecidas pela casa de apostas. Se a probabilidade de vitória for maior do que a probabilidade implícita, isso indica uma aposta de valor, potencialmente lucrativa a longo prazo.</p>
+        <p>Ao identificar e apostar consistentemente em eventos com valor esperado positivo, os apostadores podem maximizar seus lucros e minimizar perdas, aproveitando oportunidades onde as odds das casas de apostas subestimam as reais chances de vitória.</p>
+    </div>
+    <footer>
+        <p>Criado por Michael - Picks and Tips</p>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>
