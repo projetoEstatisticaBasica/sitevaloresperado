@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Probabilidade de Vitória</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Probabilidade de Vitória</h1>
+        <form id="calcForm">
+            <label for="victories">Número de Vitórias:</label>
+            <input type="number" id="victories" required>
+
+            <label for="matches">Número de Partidas Disputadas:</label>
+            <input type="number" id="matches" required>
+            
+            <label for="odds">Odds Indicadas pela Casa de Apostas:</label>
+            <input type="number" step="0.01" id="odds" required>
+
+            <button type="submit">Calcular</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
